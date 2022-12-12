@@ -1,14 +1,16 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - entry point
  *
- * Return: alway returns 0
- *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	unsigned char a = '0';
 	int i;
+	unsigned char a = '0';
+	
 
 	for (i = 0; i < 10; i++)
 	{
@@ -23,4 +25,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}}
+}
